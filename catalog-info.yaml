@@ -3,10 +3,21 @@ kind: Component
 metadata:
   name: adoth
   annotations:
-    devops.jio.com/project-repo: TOPS/T2R/T2R
-    devops.jio.com/project: TOPS/T2R
+    devops.jio.com/project-repo: T2R/T2R
+    devops.jio.com/project: T2R
     devops.jio.com/build-definition: jio-t2r-dynamic-tkt-configurator-admin-bff-service
 spec:
   type: service
   lifecycle: unknown
   owner: guests
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: adoth
+  description: Component to be used as demonstration tool
+  displayName: DEMO
+spec:
+  type: url
+  targets:
+    - https://devops.jio.com/TOPS/_git/T2R?path=%2Fcatalog-info.yaml&version=GBmaster
