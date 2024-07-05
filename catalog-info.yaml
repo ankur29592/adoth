@@ -3,8 +3,10 @@ kind: Component
 metadata:
   name: adoth
   annotations:
-    github.com/project-slug: ankur29592/adoth
+    devops.jio.com/project-repo: TOPS/T2R/T2R
+    devops.jio.com/project: TOPS/T2R
+    devops.jio.com/build-definition: jio-t2r-dynamic-tkt-configurator-admin-bff-service
 spec:
-  type: other
+  type: service
   lifecycle: unknown
   owner: guests
