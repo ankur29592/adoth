@@ -10,3 +10,14 @@ spec:
   type: service
   lifecycle: unknown
   owner: guests
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: adoth
+  description: Component to be used as demonstration tool
+  displayName: DEMO
+spec:
+  type: url
+  targets:
+    - https://devops.jio.com/TOPS/_git/T2R?path=%2Fcatalog-info.yaml&version=GBmaster
