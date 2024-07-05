@@ -3,8 +3,8 @@ kind: Component
 metadata:
   name: adoth
   annotations:
-    devops.jio.com/project-repo: TOPS/T2R/T2R
-    devops.jio.com/project: TOPS/T2R
+    devops.jio.com/project-repo: T2R/T2R
+    devops.jio.com/project: T2R
     devops.jio.com/build-definition: jio-t2r-dynamic-tkt-configurator-admin-bff-service
 spec:
   type: service
